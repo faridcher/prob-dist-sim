@@ -9,6 +9,8 @@ The features of this project are:
 - plots are generated using base
 - simple but useful
 
+For the output pdf files, checks the release.
+
 # future
 - Simulation for multinomial distribution 
 
