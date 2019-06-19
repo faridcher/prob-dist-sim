@@ -1,21 +1,18 @@
-# prob-dist-sim
+# Why?
+This is an educational repository that teaches how to generate random numbers
+with various parameter settings using probability distribution functions (PDF) and
+probability mass functions (PMF); it also plots the simulated (generated) data
+showing the parameters values and the corresponding graphs. Briefly, it
 
-The features of this project are:
-- R code to simulate univariate continuous probability distribution 
-- R code to simulate univariate discrete probability distribution 
-- R code to simulate bi-variate normal distribution in various sigma values (install 'mvtnorm' package)
-- Only using R built-in distribution functions
+- simulates univariate continuous probability distribution 
+- simulates univariate discrete probability distribution 
+- simulates bi-variate normal distribution in various sigma values (install 'mvtnorm' package)
 - `runifd`,`qunifd`, `punifd` and `dunifd` to support discrete uniform distribution
-- plots are generated using base
-- simple but useful
+- plots the data using traditional plot system i.e. `graphics` package
 
-For the output pdf files, check the release.
+# TODO
+- Simulate and plot multinomial and bionomial distributions
+- use `persp` for bivariate distributions
 
-# future
-- Simulation for multinomial distribution 
-
-# snapshots
-
-![continuous](http://www.fcheraghi.ir/images/prob-stat-sim/cont.png)
-![discrete](http://www.fcheraghi.ir/images/prob-stat-sim/dist.png)
-![multivariate normal](http://www.fcheraghi.ir/images/prob-stat-sim/mvtnorm.png)
+# Snapshots
+For snapshots see the `png` files.
